@@ -57,8 +57,8 @@ const Home = () => {
 
       <div
         className={`flex flex-wrap justify-around gap-6 py-12 ${lightMode
-            ? 'bg-gray-50 text-gray-700'
-            : 'bg-gray-800 text-gray-200'
+            ? 'bg-gray-100 text-gray-700'
+            : 'bg-gray-900 text-gray-200'
           }`}
       >
         {cards.map((card, index) => (
