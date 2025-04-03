@@ -10,6 +10,8 @@ const [user, setUser] = useState('')
 const [email, setEmail] = useState('')
 const [description, setDescription] = useState('')
 const [products, setProducts] = useState([])
+const [cards, setCards] = useState([]);
+
 
 const requiredVal = {
     loading,
@@ -25,7 +27,9 @@ const requiredVal = {
     setEmail,
     setDescription,
     products,
-    setProducts
+    setProducts,
+    cards,
+    setCards
 }
 
   return (
