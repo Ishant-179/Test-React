@@ -29,7 +29,7 @@ const Home = () => {
         className={`${lightMode
             ? 'bg-gray-100 text-gray-700'
             : 'bg-gray-900 text-gray-200'
-          }  py-10 w-full flex items-center flex-col gap-12`}
+          }  py-10 w-full flex items-center flex-col gap-12 px-10`}
       >
         <h1 className="flex justify-center items-center font-bold text-[40px] tracking-wide">
           Home Page
